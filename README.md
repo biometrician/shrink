@@ -1,36 +1,20 @@
 # shrink
-Global, Parameterwise and Joint Shrinkage Factor Estimation with R
 
-Package: shrink
-Title: Global, Parameterwise and Joint Shrinkage Factor Estimation
-Version: 1.2.1
-Authors@R: c(person("Daniela", "Dunkler", email = "daniela.dunkler@meduniwien.ac.at", role = c("aut", "cre")),
-    person("Georg", "Heinze", role = "aut"))
-Description: The predictive value of a statistical model can often be improved
-    by applying shrinkage methods. This can be achieved, e.g., by regularized
-    regression or empirical Bayes approaches. Various types of shrinkage factors can
-    also be estimated after a maximum likelihood. While global shrinkage modifies
-    all regression coefficients by the same factor, parameterwise shrinkage factors
-    differ between regression coefficients. With variables which are either highly
-    correlated or associated with regard to contents, such as several columns of a
-    design matrix describing a nonlinear effect, parameterwise shrinkage factors are
-    not interpretable and a compromise between global and parameterwise shrinkage,
-    termed 'joint shrinkage', is a useful extension. A computational shortcut to
-    resampling-based shrinkage factor estimation based on DFBETA residuals can be
-    applied. Global, parameterwise and joint shrinkage for models fitted by lm(),
-    glm(), coxph(), or mfp() is available.
-Depends:
-    R (>= 3.2.2)
-License: GPL-3 + file LICENSE
-Imports:
-    survival,
-    MASS,
-    rms,
-    mfp
-LazyData: true
-Suggests:
-    aod,
-    knitr,
-    rmarkdown
-VignetteBuilder: knitr
-RoxygenNote: 5.0.1
+The R package **shrink** implements global, parameterwise and joint shrinkage factor 
+estimation as proposed by Dunkler, Sauerbrei and Heinze (Journal of Statistical 
+Software, 2016, \url{http://dx.doi.org/10.18637/jss.v069.i08})
+The predictive value of a statistical model can often be improved by applying shrinkage 
+methods. This can be achieved, e.g., by regularized regression or empirical Bayes 
+approaches. Various types of shrinkage factors can also be estimated after a maximum
+likelihood. While global shrinkage modifies all regression coefficients by the same
+factor, parameterwise shrinkage factors differ between regression coefficients. With 
+variables which are either highly correlated or associated with regard to contents, 
+such as several columns of a design matrix describing a nonlinear effect, parameterwise
+shrinkage factors are not interpretable and a compromise between global and 
+parameterwise shrinkage, termed 'joint shrinkage', is a useful extension. A computational
+shortcut to resampling-based shrinkage factor estimation based on DFBETA residuals 
+can be applied. Global, parameterwise and joint shrinkage for models fitted by lm(),
+glm(), coxph(), or mfp() is available.
+
+This package is licensed under GPL-3, and available on CRAN:
+<https://cran.r-project.org/package=shrink>.
