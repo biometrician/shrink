@@ -1,0 +1,23 @@
+bibentry(bibtype = "Article",
+  title        = "Global, Parameterwise and Joint Shrinkage Factor Estimation",
+  author       = c(person(given = "Daniela",
+                          family = "Dunkler"),
+                   person(given = "Willi",
+                          family = "Sauerbrei"),
+                   person(given = "Georg",
+                          family = "Heinze",
+                          email = "georg.heinze@meduniwien.ac.at")),
+  journal      = "Journal of Statistical Software",
+  year         = "2016",
+  volume       = "69",
+  number       = "8",
+  pages        = "1--19",
+  doi          = "10.18637/jss.v069.i08",
+
+  header       = "To cite shrink in publications use:",
+  textVersion  =
+  paste("Daniela Dunkler, Willi Sauerbrei, Georg Heinze (2016).",
+        "Global, Parameterwise and Joint Shrinkage Factor Estimation.",
+        "Journal of Statistical Software, 69(8), 1-19.",
+        "doi:10.18637/jss.v069.i08")
+)
