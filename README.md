@@ -2,7 +2,7 @@
 
 The R package **shrink** implements global, parameterwise and joint shrinkage factor 
 estimation as proposed by Dunkler, Sauerbrei and Heinze (Journal of Statistical 
-Software, 2016, \url{http://dx.doi.org/10.18637/jss.v069.i08})
+Software, 2016, <http://dx.doi.org/10.18637/jss.v069.i08>)
 The predictive value of a statistical model can often be improved by applying shrinkage 
 methods. This can be achieved, e.g., by regularized regression or empirical Bayes 
 approaches. Various types of shrinkage factors can also be estimated after a maximum
