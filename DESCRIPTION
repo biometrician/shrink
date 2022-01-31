@@ -1,6 +1,6 @@
 Package: shrink
 Title: Global, Parameterwise and Joint Shrinkage Factor Estimation
-Version: 1.2.1
+Version: 1.2.2
 Authors@R: c(person("Daniela", "Dunkler", email = "daniela.dunkler@meduniwien.ac.at", role = c("aut", "cre")),
     person("Georg", "Heinze", role = "aut"))
 Description: The predictive value of a statistical model can often be improved
