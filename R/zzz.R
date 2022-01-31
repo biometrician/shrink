@@ -45,7 +45,7 @@
 #'
 #' @references Dunkler D, Sauerbrei W, Heinze G (2016). Global, Parameterwise and Joint
 #'     Shrinkage Factor Estimation. \emph{Journal of Statistical Software}. \bold{69}(8), 1-19.
-#'     \url{http://dx.doi.org/10.18637/jss.v069.i08} \cr
+#'     \doi{10.18637/jss.v069.i08} \cr
 #'     Sauerbrei W (1999) The use of resampling methods to simplify regression
 #'     models in medial statistics. \emph{Applied Statistics} \bold{48}(3): 313-329. \cr
 #'     Verweij P, van Houwelingen J (1993) Cross-validation in survival analysis.
