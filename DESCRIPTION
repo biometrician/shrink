@@ -1,6 +1,6 @@
 Package: shrink
 Title: Global, Parameterwise and Joint Shrinkage Factor Estimation
-Version: 1.2.1
+Version: 1.2.2
 Authors@R: c(person("Daniela", "Dunkler", email = "daniela.dunkler@meduniwien.ac.at", role = c("aut", "cre")),
     person("Georg", "Heinze", role = "aut"))
 Description: The predictive value of a statistical model can often be improved
@@ -18,7 +18,7 @@ Description: The predictive value of a statistical model can often be improved
     glm(), coxph(), or mfp() is available.
 Depends:
     R (>= 3.2.2)
-License: GPL-3 + file LICENSE
+License: GPL-3
 Imports:
     survival,
     MASS,
@@ -30,4 +30,4 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
-RoxygenNote: 5.0.1
+RoxygenNote: 7.1.2

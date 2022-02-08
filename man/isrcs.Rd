@@ -20,4 +20,3 @@ A list with two elements:
 Test if \code{\link[rms]{rcs}} from the \code{rms} Package was Used in the Fit.
 }
 \keyword{internal}
-

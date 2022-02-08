@@ -4,7 +4,8 @@
 \name{deepvein}
 \alias{deepvein}
 \title{Deep Vein Thrombosis Study}
-\format{The data frame contains observations of 929 individuals and the
+\format{
+The data frame contains observations of 929 individuals and the
     following variables:
  \describe{
      \item{pnr}{ patient number. }
@@ -19,7 +20,8 @@
      \item{age}{ age in years. }
      \item{loc}{ location of first thrombosis: pulmonary embolism (PE), distal,
            or proximal deep vein \cr thrombosis. }
-}}
+}
+}
 \usage{
 deepvein
 }
@@ -50,4 +52,3 @@ M. Schumacher, G. Basert, H. Bojar,  K. Huebner, M. Olschewski,
       Series A}, Volume \bold{162}(1), 71--94.
 }
 \keyword{datasets}
-

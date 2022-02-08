@@ -4,7 +4,8 @@
 \name{GBSG}
 \alias{GBSG}
 \title{German Breast Cancer Study Group}
-\format{This data frame contains the observations of 686 women:
+\format{
+This data frame contains the observations of 686 women:
 \describe{
     \item{id}{patient id.}
     \item{htreat}{hormonal therapy, a factor at two levels \code{0} (no) and \code{1} (yes).}
@@ -17,7 +18,8 @@
     \item{esm}{estrogen receptor (in fmol).}
     \item{rfst}{recurrence free survival time (in days).}
     \item{cens}{censoring indicator (\code{0} censored, \code{1} event).}
-}}
+}
+}
 \usage{
 GBSG
 }
@@ -41,4 +43,3 @@ M. Schumacher, G. Basert, H. Bojar,  K. Huebner, M. Olschewski,
       Series A}, Volume \bold{162}(1), 71--94.
 }
 \keyword{datasets}
-
