@@ -26,4 +26,3 @@ class have methods for the functions \code{coef}, \code{predict}, \code{print},
 \code{\link{shrink}}, \code{\link{coef.shrink}}, \code{\link{print.shrink}},
     \code{\link{predict.shrink}}, \code{\link{vcov.shrink}}
 }
-

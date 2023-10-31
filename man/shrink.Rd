@@ -4,9 +4,14 @@
 \alias{shrink}
 \title{Global, Parameterwise and Joint Shrinkage of Regression Coefficients}
 \usage{
-shrink(fit, type = c("parameterwise", "global", "all"),
-  method = c("jackknife", "dfbeta"), join = NULL, notes = TRUE,
-  postfit = TRUE)
+shrink(
+  fit,
+  type = c("parameterwise", "global", "all"),
+  method = c("jackknife", "dfbeta"),
+  join = NULL,
+  notes = TRUE,
+  postfit = TRUE
+)
 }
 \arguments{
 \item{fit}{a fit object of class \code{lm}, \code{glm}, \code{coxph}, or \code{mfp}.
@@ -230,7 +235,7 @@ shrink(fit7, type = "parameterwise", method = "dfbeta",
 \references{
 Dunkler D, Sauerbrei W, Heinze G (2016). Global, Parameterwise and Joint
     Shrinkage Factor Estimation. \emph{Journal of Statistical Software}. \bold{69}(8), 1-19.
-    \url{http://dx.doi.org/10.18637/jss.v069.i08} \cr
+    \doi{10.18637/jss.v069.i08} \cr
     Sauerbrei W (1999) The use of resampling methods to simplify regression
     models in medial statistics. \emph{Applied Statistics} \bold{48}(3): 313-329. \cr
     Verweij P, van Houwelingen J (1993) Cross-validation in survival analysis.
@@ -240,4 +245,3 @@ Dunkler D, Sauerbrei W, Heinze G (2016). Global, Parameterwise and Joint
 \code{\link{coef.shrink}}, \code{\link{predict.shrink}}, \code{\link{print.shrink}},
     \code{\link{summary.shrink}}, \code{\link{vcov.shrink}}
 }
-

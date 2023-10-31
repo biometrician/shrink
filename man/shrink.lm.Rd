@@ -39,4 +39,3 @@ A list with the following elements:
 Internal function for \code{shrink}.
 }
 \keyword{internal}
-

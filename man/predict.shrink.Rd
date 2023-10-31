@@ -4,9 +4,17 @@
 \alias{predict.shrink}
 \title{Predict Method for Objects of Class \code{shrink}}
 \usage{
-\method{predict}{shrink}(object, newdata = NULL, type = c("link",
-  "response", "lp", "risk", "expected", "terms"), shrinktype = NULL,
-  terms = NULL, na.action = na.pass, collapse, safe = FALSE, ...)
+\method{predict}{shrink}(
+  object,
+  newdata = NULL,
+  type = c("link", "response", "lp", "risk", "expected", "terms"),
+  shrinktype = NULL,
+  terms = NULL,
+  na.action = na.pass,
+  collapse,
+  safe = FALSE,
+  ...
+)
 }
 \arguments{
 \item{object}{an object of class \code{shrink}.}
@@ -91,4 +99,3 @@ legend("topright", lty = c(1, 3, 4, 2), title = "SHRINKAGE",
 \code{\link{shrink}}, \code{\link{coef.shrink}}, \code{\link{print.shrink}},
     \code{\link{summary.shrink}}, \code{\link{vcov.shrink}}
 }
-
