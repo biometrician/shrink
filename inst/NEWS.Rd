@@ -2,6 +2,19 @@
 
 \title{NEWS file for the shrink package}
 
+\section{Changes in version 1.2.3}{
+  \itemize{
+    \item 31 Oct 2023 update shrink-package.Rd file
+  }
+}
+
+\section{Changes in version 1.2.2}{
+  \itemize{
+    \item 31 Jan 2022 removed license file; fixed doi links
+  }
+}
+
+
 \section{Changes in version 1.2.1}{
   \itemize{
     \item 09 March 2016 citation updated

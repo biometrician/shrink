@@ -22,13 +22,6 @@ Global, parameterwise and joint shrinkage for models fitted by \code{lm},
 \code{glm}, \code{coxph}, and \code{mfp} is available.
 }
 \details{
-\tabular{ll}{
-    Package: \tab shrink\cr
-    Type: \tab Package\cr
-    Version: \tab 1.2.1\cr
-    Date: \tab 2016-03-09\cr
-    License: \tab GPL-2\cr
-}
 Functions included in the \code{shrink}-package:
 \tabular{ll}{
      \code{ shrink } \tab a function to compute global, parameterwise and joint post-estimation \cr
@@ -48,6 +41,11 @@ Functions included in the \code{shrink}-package:
        \code{ GBSG } \tab German breast cancer study \cr
  }
 }
+\section{Notes}{
+ Sauerbrei (1999) suggested that before estimating parameterwise shrinkage 
+factors, the data should be standardized to have a mean of 0 and unit variance.
+}
+
 \examples{
 # with glm, family = binomial
 set.seed(888)
