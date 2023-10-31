@@ -35,6 +35,9 @@
 #'        \code{ GBSG } \tab German breast cancer study \cr
 #'  }
 #'
+#' @section Notes: Sauerbrei (1999) suggested that before estimating parameterwise shrinkage 
+#' factors, the data should be standardized to have a mean of 0 and unit variance. 
+#' 
 #' @references Dunkler D, Sauerbrei W, Heinze G (2016). Global, Parameterwise and Joint
 #'     Shrinkage Factor Estimation. \emph{Journal of Statistical Software}. \bold{69}(8), 1-19.
 #'     \doi{10.18637/jss.v069.i08} \cr
@@ -42,9 +45,11 @@
 #'     models in medial statistics. \emph{Applied Statistics} \bold{48}(3): 313-329. \cr
 #'     Verweij P, van Houwelingen J (1993) Cross-validation in survival analysis.
 #'     \emph{Statistics in Medicine} \bold{12}(24): 2305-2314.
+#'     
 #' @seealso \code{\link{shrink}}, \code{\link{coef.shrink}}, \code{\link{predict.shrink}},
 #'     \code{\link{print.shrink}}, \code{\link{summary.shrink}}, \code{\link{vcov.shrink}},
 #'     \code{\link{deepvein}}
+#'     
 #' @examples
 #' # with glm, family = binomial
 #' set.seed(888)

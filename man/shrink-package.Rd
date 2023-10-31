@@ -41,6 +41,11 @@ Functions included in the \code{shrink}-package:
        \code{ GBSG } \tab German breast cancer study \cr
  }
 }
+\section{Notes}{
+ Sauerbrei (1999) suggested that before estimating parameterwise shrinkage 
+factors, the data should be standardized to have a mean of 0 and unit variance.
+}
+
 \examples{
 # with glm, family = binomial
 set.seed(888)
