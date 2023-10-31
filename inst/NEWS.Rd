@@ -4,7 +4,7 @@
 
 \section{Changes in version 1.2.3}{
   \itemize{
-    \item 31 Oct 2023 update shrink-package.Rd file
+    \item 31 Oct 2023 update shrink-package.Rd file, changes in description file
   }
 }
 
