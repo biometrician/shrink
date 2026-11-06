@@ -93,3 +93,13 @@ Dunkler D, Sauerbrei W, Heinze G (2016). Global, Parameterwise and Joint
     \code{\link{print.shrink}}, \code{\link{summary.shrink}}, \code{\link{vcov.shrink}},
     \code{\link{deepvein}}
 }
+\author{
+\strong{Maintainer}: Daniela Dunkler \email{daniela.dunkler@meduniwien.ac.at}
+
+Authors:
+\itemize{
+  \item Daniela Dunkler \email{daniela.dunkler@meduniwien.ac.at}
+  \item Georg Heinze
+}
+
+}

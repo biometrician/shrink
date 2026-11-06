@@ -82,8 +82,9 @@
 #'
 #' # For more examples see shrink
 #'
-#' @docType package
 #' @name shrink-package
+#' @aliases shrink-package NULL
 #'
-#' @import survival rms mfp MASS
-NULL
+#' @import survival mfp MASS
+#' @rawNamespace import(rms, except = cluster)
+"_PACKAGE"

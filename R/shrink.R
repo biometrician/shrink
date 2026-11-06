@@ -72,7 +72,7 @@
 #'
 #' @export
 #' @importFrom stats coef dfbeta family gaussian glm glm.fit lm.wfit model.matrix
-#'                   nobs predict predict.glm residuals summary.glm terms weights
+#' @importFrom stats nobs predict predict.glm residuals summary.glm terms weights
 #'
 #' @return \code{shrink} returns an object with the following components:
 #' \tabular{ll}{
