@@ -2,6 +2,12 @@
 
 \title{NEWS file for the shrink package}
 
+\section{Changes in version 1.2.4}{
+  \itemize{
+    \item 10 Nov 2026 maintenance update resolving the CRAN installation warning caused by conflicting imports of cluster from rms and survival.
+  }
+}
+
 \section{Changes in version 1.2.3}{
   \itemize{
     \item 31 Oct 2023 update shrink-package.Rd file, changes in description file
