@@ -16,7 +16,7 @@ Description: The predictive value of a statistical model can often be improved
     resampling-based shrinkage factor estimation based on DFBETA residuals can be
     applied. Global, parameterwise and joint shrinkage for models fitted by lm(),
     glm(), coxph(), or mfp() is available.
-    The package is also available at https://github.com/biometrician/shrink.
+    The package is also available at <https://github.com/biometrician/shrink>.
 Depends:
     R (>= 3.2.2)
 License: GPL-3
